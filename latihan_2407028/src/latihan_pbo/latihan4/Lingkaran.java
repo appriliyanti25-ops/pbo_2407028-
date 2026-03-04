@@ -1,0 +1,17 @@
+package latihan_pbo.latihan4;
+
+class Lingkaran extends BangunDatar {
+    private double jariJari;
+
+    public Lingkaran(double jariJari) {
+        this.jariJari = jariJari;
+    }
+
+    public double luas() {
+        return Math.PI * jariJari * jariJari;
+    }
+
+    public double keliling() {
+        return 2 * Math.PI * jariJari;
+    }
+}
