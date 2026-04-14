@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Tinggi    : 4");
         System.out.println("----------------------");
         System.out.println("Luas Alas : " + br.hitungLuas());
-        System.out.println("Volume    : " + br.hitungVolume());
+        System.out.println("Volume dari class parent    : " + br.hitungVolume());
+        System.out.println("Volume dari class child    : " + br.hitungVolume());
     }
 }

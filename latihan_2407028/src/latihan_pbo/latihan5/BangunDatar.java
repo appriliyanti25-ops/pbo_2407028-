@@ -1,8 +1,8 @@
 package latihan_pbo.latihan5;
 
 public class BangunDatar {
-    private double panjang;
-    private double lebar;
+    public double panjang;
+    public double lebar;
 
     public BangunDatar(double panjang, double lebar) {
         this.panjang = panjang;
@@ -26,7 +26,7 @@ public class BangunDatar {
     }
 
     public double hitungLuas() {
-        return panjang * lebar;
+        return panjang * lebar * 2;
     }
 }
 

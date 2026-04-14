@@ -8,12 +8,9 @@ public class BangunRuang extends BangunDatar {
         this.tinggi = tinggi;
     }
 
-    public double getTinggi() {
-        return tinggi;
-    }
-
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
+    @Override
+    public double hitungLuas(){
+        return getPanjang() * getLebar();
     }
 
     
